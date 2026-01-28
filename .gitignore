@@ -1,0 +1,62 @@
+# ===============================
+# Visual Studio / IDE files
+# ===============================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.idea/
+.history/
+.vscode/
+*.code-workspace
+
+# ===============================
+# Build output
+# ===============================
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.app
+*.cache
+*.log
+
+# ===============================
+# .NET Core / ASP.NET Core
+# ===============================
+appsettings.Development.json
+*.db
+*.sqlite
+*.mdf
+*.ldf
+project.lock.json
+project.fragment.lock.json
+.nuget/
+packages/
+*.nupkg
+*.snupkg
+
+# ===============================
+# Node / Angular
+# ===============================
+node_modules/
+dist/
+tmp/
+.angular/
+package-lock.json
+yarn.lock
+
+# ===============================
+# OS generated files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Optional: local HTTP test files
+# ===============================
+# Keep EnginePerformance.http if you want to share API tests, otherwise ignore
+# EnginePerformance.http
+
